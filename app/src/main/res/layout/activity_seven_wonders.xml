@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".SevenWonders">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/tajmahal"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_background"
+            android:text="Taj Mahal"/>
+        <Button
+            android:id="@+id/colosseum"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_background"
+            android:text="Colosseum"/>
+        <Button
+            android:id="@+id/Chichen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            android:text="ChichenItaz"
+            />
+        <Button
+            android:id="@+id/machu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            android:text="Machu Picchu"/>
+        <Button
+            android:id="@+id/redeemer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            android:text="Christ the Redeemer"/>
+        <Button
+            android:id="@+id/petra"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            android:text="Petra"/>
+        <Button
+            android:id="@+id/greatwall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_background"
+            android:text="Great wall of China"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
